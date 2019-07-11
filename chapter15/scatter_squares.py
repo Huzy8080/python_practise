@@ -1,8 +1,8 @@
 import matplotlib.pyplot as plt
 
-# x_value = [1, 2, 3, 4, 5]
+# x_values = [1, 2, 3, 4, 5]
 x_value = list(range(1, 1001))
-# y_value = [1, 4, 9, 16, 25]
+# y_values = [1, 4, 9, 16, 25]
 y_values = [x ** 2 for x in x_value]
 
 plt.scatter(x_value, y_values, s=20, edgecolors='none', c=y_values, cmap=plt.cm.Blues)

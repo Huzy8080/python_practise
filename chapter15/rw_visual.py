@@ -1,5 +1,6 @@
 import matplotlib.pyplot as plt
 
+
 from chapter15 import random_walk
 
 while True:
